@@ -25,9 +25,9 @@ define(['jquery',
                 self.navToPage(page);
               }
             });
-            setInterval(function () {
-                this.updatePagination();
-            }.bind(this), 5000);
+            // setInterval(function () {
+            //     this.updatePagination();
+            // }.bind(this), 5000);
         },
 
         findPage: function(assignment) {
@@ -212,5 +212,5 @@ define(['jquery',
 
     });
 
-    
+
 });

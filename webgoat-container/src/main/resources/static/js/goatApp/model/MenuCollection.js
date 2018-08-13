@@ -11,9 +11,9 @@ define(['jquery',
             initialize: function () {
                 var self = this;
                 this.fetch();
-                setInterval(function () {
-                    this.fetch()
-                }.bind(this), 5000);
+                // setInterval(function () {
+                //     this.fetch()
+                // }.bind(this), 5000);
             },
 
             onDataLoaded: function () {
